@@ -1,0 +1,34 @@
+{
+  "parser": "babel-eslint",
+  "parserOptions": {
+    "ecmaFeatures": {
+      "legacyDecorators": true
+    }
+  },
+  "extends": ["airbnb-base", "prettier"],
+  "plugins": ["import", "babel", "prettier"],
+  "rules": {
+    "prettier/prettier": ["error"],
+    "no-unused-vars": "warn",
+    "import/prefer-default-export": "off",
+    "import/no-named-as-default-member": "off",
+    "no-console": "off",
+    "no-throw-literal": "off"
+  },
+  "settings": {
+    "import/resolver": {
+      "babel-module": {
+        "alias": {
+          "src": "./src/",
+          "Api": "./src/Api",
+          "Config": "./src/Config",
+          "Utils": "./src/Utils",
+          "Controllers": "./src/Api/Controllers",
+          "Models": "./src/Api/Models",
+          "Responses": "./src/Api/Responses",
+          "Routes": "./src/Api/Routes"
+        }
+      }
+    }
+  }
+}
