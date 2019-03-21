@@ -10,7 +10,6 @@
     "start": "npm run build && node ./build/index.js",
     "babel-node": "babel-node -r node_modules/dotenv/config --inspect",
     "dev": "nodemon --exec npm run babel-node -- ./src/index.js",
-    "sudo-dev": "sudo npm run dev",
     "lint": "eslint \"./**/*.{js,jsx}\"",
     "lint:watch": "esw -w -ext .js --ext .jsx --clear .",
     "lint:fix": "npm run lint -- --fix",

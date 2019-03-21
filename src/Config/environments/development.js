@@ -1,3 +1,3 @@
 export default {
-  connection: {},
+  // values here overwrite those in ../index.js
 };

@@ -1,5 +1,3 @@
 export default {
-  connection: {
-    logging: false,
-  },
+  // values here overwrite those in ../index.js
 };

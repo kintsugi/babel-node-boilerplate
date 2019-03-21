@@ -6,13 +6,8 @@
     "baseUrl": "./",
     "paths": {
       "src/*": ["src/*"],
-      "Api/*": ["src/Api/*"],
       "Config/*": ["src/Config/*"],
-      "Utils/*": ["src/Utils/*"],
-      "Controllers/*": ["src/Api/Controllers/*"],
-      "Models/*": ["src/Api/Models/*"],
-      "Responses/*": ["src/Api/Responses/*"],
-      "Routes/*": ["src/Api/Routes*/"]
+      "Utils/*": ["src/Utils/*"]
     }
   }
 }
