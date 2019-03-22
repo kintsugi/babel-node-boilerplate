@@ -1,6 +1,6 @@
 # babel-node-boilerplate
 
-Slightly opinionated boilerplate for Node.Js project with babel.
+Slightly opinionated boilerplate for Node.Js project with babel. More documentation needed.
 
 # Usage
 
